@@ -1,0 +1,19 @@
+# Ignore temporary Office lock files
+~$*.xlsx
+~$*.xls
+~$*.docx
+
+# Ignore raw draft Excel input files (keep only standardized workbook)
+biểu mẫu.xlsx
+Biểu mẫu trực đúc new.xlsx
+
+# Ignore temporary Python and JSON helper scripts
+*.py
+__pycache__/
+*.pyc
+lfc_*.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
